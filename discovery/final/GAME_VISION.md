@@ -3,7 +3,7 @@ project: MineCremental
 artifact: game-vision
 status: DRAFT
 approved_by_author: false
-last_session: 001
+last_session: 001 (más evaluación 2026-11-16)
 ---
 
 # MineCremental: Game Vision
@@ -23,6 +23,7 @@ Vivir lo que da un incremental, pero dentro de Minecraft y con su esencia. Se em
 ## Experiencia buscada
 
 - **Activo por sobre idle.** El juego invita a seguir jugando; lo idle existe pero no es el motor. (DEC-002)
+- **Sin ganancia offline.** La producción virtual ocurre solo mientras se juega. (DEC-021)
 - **Aprender y buscar eficiencia** de tres formas: optimizar números, construir mejor y dominar la propia acción. El jugador elige dónde invierte recursos y esfuerzo. (DEC-003)
 - **Crecimiento en cuatro ejes:** números, mundo físico, personaje y acceso o conocimiento, sin un protagonista único. (DEC-004)
 
@@ -38,9 +39,17 @@ Vivir lo que da un incremental, pero dentro de Minecraft y con su esencia. Se em
 - **Picar a mano** sigue siendo competitivo gracias a las mejoras del jugador y, además, potencia lo automatizado mientras el jugador está presente. (DEC-015)
 - **Máquinas compradas como paquete de piezas** que se arman libremente. Comprar una máquina exige haber aprendido sus piezas; las piezas adicionales suben de precio. Construir libremente es posible, pero no es la vía principal. (DEC-012)
 - **Espacio limitado y comprable**, ligado a nuevas zonas de producción. (DEC-013)
-- **De físico a virtual.** Al inicio todo es tangible. En cierta etapa se desbloquea la virtualización, que se siente como un logro. (DEC-007)
-- **Virtualización por calibración.** La producción virtual se estima midiendo la máquina física; si se modifica, se recalibra. (DEC-008)
-- **Blueprints.** La máquina virtualizada queda como blueprint que se reabre para mejorar su diseño. Replicarlo está en exploración. (DEC-009)
+- **Almacén central.** Todo lo extraído llega a un almacén que registra cantidades reales. La forma de llevarlo depende del avance: al principio se mueve a mano, luego automáticamente. Se vende desde el almacén. (DEC-020)
+- **Valor antes que cantidad.** Los materiales más caros producen más por valor; la cantidad no escala tanto como el valor. (DEC-022)
+
+## Virtualización del procesamiento
+
+- **Extraer es físico, procesar se virtualiza.** La extracción en zonas es siempre física y activa. En cierta etapa se desbloquea la virtualización del procesamiento, que se siente como un logro. (DEC-016)
+- **Laboratorio.** El jugador entra a un laboratorio único, construye ahí la máquina con sus piezas y corre un test. El laboratorio se amplía por compra, por etapas. (DEC-017, DEC-019)
+- **Calibración por conversión.** El test mide cuánto produce la máquina por cada insumo y cuánto procesa como máximo, con lo que el jugador realmente suministra. La máquina funciona solo con sus inputs; la energía puede generarse dentro o entrar como input. Las máquinas cuyas salidas son ítems con datos (NBT) no se pueden virtualizar, y el juego explica por qué. (DEC-017)
+- **Producción virtual.** Cada máquina virtual consume insumos del almacén y devuelve sus productos ahí: lo suministrado multiplicado por la conversión, hasta su capacidad. Sin insumos no produce. Las cadenas se forman dentro del almacén. (DEC-017, DEC-020)
+- **Slots.** Lo que se compra es un cupo de máquina virtual, con precio creciente; un rack opcional en la base muestra los slots. (DEC-019)
+- **Blueprints.** La máquina verificada se guarda como plano con sus piezas dentro. Se reabre en el laboratorio para mejorarla; hasta recalibrar rige la tasa anterior. Replicarla cuesta las piezas más un costo que crece con la cantidad de copias. (DEC-018)
 
 ## Pilares
 
@@ -57,12 +66,10 @@ Vivir lo que da un incremental, pero dentro de Minecraft y con su esencia. Se em
 
 ## Preguntas abiertas de alto impacto
 
-- Factibilidad de la virtualización por calibración con máquinas de mods de terceros (riesgo técnico principal).
+- Mecanismo contra insumos ocultos en la calibración, duración del test y tratamiento del azar. La factibilidad general está respaldada por investigación (SUPPORTED, ver `research/`).
 - Estructura de etapas y mundo: qué abre cada etapa y cómo se organiza el espacio.
 - Reinicios o prestigio: si existen y qué persiste.
-- Ganancia offline y rendimiento de lo virtual sin el jugador presente.
-- Alimentación virtual de las entradas de una máquina y encadenamiento entre máquinas.
-- Reglas de replicación de blueprints.
-- Una o varias monedas.
+- Costos y etapas de laboratorio, slots y replicación; en qué etapa se desbloquea la virtualización.
+- Una o varias monedas; capacidad del almacén.
 - Modelo social: un jugador, cooperativo o servidor.
 - Alcance mínimo disfrutable (MVP).

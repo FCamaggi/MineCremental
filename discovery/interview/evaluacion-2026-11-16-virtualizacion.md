@@ -1,9 +1,10 @@
-# Interview Session 002
+# Nota de evaluación: virtualización por calibración (2026-11-16)
 
 - Fecha: 2026-11-16
 - Agente: sesión principal (evaluación de investigación seguida de preguntas de diseño; no se usó `/discovery-interview`)
 - Fase: Stage 2 a 4, investigación dirigida y contraste
 - Estado: DRAFT
+- Nota: no es una sesión de entrevista numerada. El autor no la considera la sesión 002, que queda reservada para la próxima entrevista con `/discovery-interview`. Se conserva como origen de DEC-016 a DEC-022.
 
 ## Objetivo de la sesión
 
@@ -79,10 +80,10 @@ Ninguna rechazada formalmente. Quedaron descartadas en la conversación, sin reg
 
 ## Próximo foco recomendado
 
-Sesión 003 con `/discovery-interview`: estructura de progresión de largo plazo (etapas, materiales por valor, estructura del mundo, prestigio). Es el foco que la sesión 001 recomendaba para la 002, y ahora DEC-022 lo vuelve central.
+Sesión 002 con `/discovery-interview`: estructura de progresión de largo plazo (etapas, materiales por valor, estructura del mundo, prestigio). Es el foco que la sesión 001 ya recomendaba, y ahora DEC-022 lo vuelve central.
 
 ## Archivos actualizados
 
 - [x] decisions/decision-log.md
-- [ ] final/GAME_VISION.md (no actualizado en esta sesión: queda desfasado respecto de DEC-016 a DEC-022)
+- [x] final/GAME_VISION.md (actualizado con DEC-016 a DEC-022)
 - [x] research/ (síntesis, brief reducido, informe del researcher)

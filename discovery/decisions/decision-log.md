@@ -21,13 +21,13 @@ Registro de decisiones de Discovery. Reglas y plantilla en [README.md](README.md
 | DEC-013 | Espacio limitado y comprable | DECIDED | G/H | 001 |
 | DEC-014 | Zona de producción con varios bloques regenerativos | DECIDED | D/H | 001 |
 | DEC-015 | Picar a mano competitivo y potenciador | DECIDED | D/C | 001 |
-| DEC-016 | Se virtualiza solo el procesamiento; la extracción es siempre física | DECIDED | C. Incremental | 002 |
-| DEC-017 | Calibración en laboratorio por conversión | DECIDED | C/K | 002 |
-| DEC-018 | Blueprint editable con piezas dentro y replicación con costo creciente | DECIDED | C/G | 002 |
-| DEC-019 | Laboratorio único ampliable y slots de máquina virtual | DECIDED | C/G/K | 002 |
-| DEC-020 | Almacén central de insumos y productos; venta desde el almacén | DECIDED | G/K | 002 |
-| DEC-021 | Sin ganancia offline | DECIDED | B/C | 002 |
-| DEC-022 | El crecimiento escala más por valor de materiales que por cantidad | DECIDED | G. Economía | 002 |
+| DEC-016 | Se virtualiza solo el procesamiento; la extracción es siempre física | DECIDED | C. Incremental | eval. 2026-11-16 |
+| DEC-017 | Calibración en laboratorio por conversión | DECIDED | C/K | eval. 2026-11-16 |
+| DEC-018 | Blueprint editable con piezas dentro y replicación con costo creciente | DECIDED | C/G | eval. 2026-11-16 |
+| DEC-019 | Laboratorio único ampliable y slots de máquina virtual | DECIDED | C/G/K | eval. 2026-11-16 |
+| DEC-020 | Almacén central de insumos y productos; venta desde el almacén | DECIDED | G/K | eval. 2026-11-16 |
+| DEC-021 | Sin ganancia offline | DECIDED | B/C | eval. 2026-11-16 |
+| DEC-022 | El crecimiento escala más por valor de materiales que por cantidad | DECIDED | G. Economía | eval. 2026-11-16 |
 
 ---
 
@@ -146,7 +146,7 @@ Balance: si el método aprendido es demasiado superior, la libertad de método e
 
 ## DEC-007: Transición de producción física a virtual como logro
 
-- Estado: SUPERSEDED (por DEC-016, sesión 002)
+- Estado: SUPERSEDED (por DEC-016, evaluación 2026-11-16)
 - Dominio: C. Sistemas incrementales
 - Fecha: 2026-11-16
 - Origen: autor (sobre alternativas del interviewer)
@@ -168,7 +168,7 @@ En qué etapa se desbloquea.
 
 ## DEC-008: Producción virtual por calibración
 
-- Estado: SUPERSEDED (por DEC-017, sesión 002)
+- Estado: SUPERSEDED (por DEC-017, evaluación 2026-11-16)
 - Dominio: C. Incremental / K. Técnico
 - Fecha: 2026-11-16
 - Origen: autor (idea propia criticada por el interviewer)
@@ -199,7 +199,7 @@ Dónde vive físicamente la máquina; cómo se mide; cómo se encadenan entradas
 
 ## DEC-009: Máquina virtualizada como blueprint mejorable
 
-- Estado: SUPERSEDED (por DEC-018, sesión 002)
+- Estado: SUPERSEDED (por DEC-018, evaluación 2026-11-16)
 - Dominio: C. Sistemas incrementales
 - Fecha: 2026-11-16
 - Origen: autor
@@ -326,7 +326,7 @@ Combinación balanceada: picar a mano sigue siendo competitivo gracias a las mej
 - Dominio: C. Sistemas incrementales
 - Fecha: 2026-11-16
 - Origen: autor
-- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Sesión: [interview/evaluacion-2026-11-16-virtualizacion.md](../interview/evaluacion-2026-11-16-virtualizacion.md)
 - Reemplaza / reemplazada por: reemplaza DEC-007
 
 ### Contexto
@@ -361,7 +361,7 @@ En qué etapa se desbloquea la virtualización (heredada de DEC-007).
 - Dominio: C. Incremental / K. Técnico
 - Fecha: 2026-11-16
 - Origen: autor (sobre preguntas derivadas de la investigación)
-- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Sesión: [interview/evaluacion-2026-11-16-virtualizacion.md](../interview/evaluacion-2026-11-16-virtualizacion.md)
 - Reemplaza / reemplazada por: reemplaza DEC-008
 
 ### Contexto
@@ -405,7 +405,7 @@ Sin insumos no hay producción, lo que elimina gran parte del abuso de calibrar 
 - Dominio: C. Incremental / G. Economía
 - Fecha: 2026-11-16
 - Origen: autor
-- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Sesión: [interview/evaluacion-2026-11-16-virtualizacion.md](../interview/evaluacion-2026-11-16-virtualizacion.md)
 - Reemplaza / reemplazada por: reemplaza DEC-009
 
 ### Decisión explícita del autor
@@ -430,7 +430,7 @@ Tasa de crecimiento del costo de replicación.
 - Dominio: C. Incremental / G. Economía / K. Técnico
 - Fecha: 2026-11-16
 - Origen: designer (propuesta de la sesión principal, por delegación del autor), aprobada explícitamente por el autor ("ok")
-- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Sesión: [interview/evaluacion-2026-11-16-virtualizacion.md](../interview/evaluacion-2026-11-16-virtualizacion.md)
 
 ### Decisión explícita del autor
 El autor delegó la elección ("toma estas decisiones tú, lo más factible") y aprobó la propuesta:
@@ -461,7 +461,7 @@ Etapas y costos de ampliación del laboratorio; precio de los slots.
 - Dominio: G. Economía / K. Técnico
 - Fecha: 2026-11-16
 - Origen: autor
-- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Sesión: [interview/evaluacion-2026-11-16-virtualizacion.md](../interview/evaluacion-2026-11-16-virtualizacion.md)
 - Reemplaza / reemplazada por: precisa DEC-011 (mecanismo de venta)
 
 ### Decisión explícita del autor
@@ -484,7 +484,7 @@ Una o varias monedas (heredada de DEC-011); capacidad del almacén.
 - Dominio: B. Loops / C. Incremental
 - Fecha: 2026-11-16
 - Origen: autor
-- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Sesión: [interview/evaluacion-2026-11-16-virtualizacion.md](../interview/evaluacion-2026-11-16-virtualizacion.md)
 - Reemplaza / reemplazada por: resuelve la pregunta abierta de DEC-002
 
 ### Decisión explícita del autor
@@ -501,7 +501,7 @@ Coherente con DEC-002 (activo por sobre idle) y DEC-015. No se calcula producci�
 - Dominio: G. Economía
 - Fecha: 2026-11-16
 - Origen: autor
-- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Sesión: [interview/evaluacion-2026-11-16-virtualizacion.md](../interview/evaluacion-2026-11-16-virtualizacion.md)
 
 ### Contexto
 Si la extracción es siempre física (DEC-016), la cantidad de materia prima no puede crecer de forma exponencial.

@@ -9,7 +9,14 @@ No hace falta transcribir la conversación completa si el resumen conserva signi
 | Sesión | Fecha | Foco |
 |---|---|---|
 | [001](session-001.md) | 2026-11-16 | Fantasía, progresión por estilos, núcleo de producción y economía |
-| [002](session-002.md) | 2026-11-16 | Evaluación de investigación y diseño de la virtualización (laboratorio, almacén, sin offline) |
+
+## Notas fuera de entrevista
+
+Conversaciones con el autor que produjeron decisiones sin ser una sesión de entrevista numerada.
+
+| Nota | Fecha | Foco |
+|---|---|---|
+| [evaluacion-2026-11-16-virtualizacion](evaluacion-2026-11-16-virtualizacion.md) | 2026-11-16 | Evaluación de la investigación sobre virtualización y decisiones DEC-016 a DEC-022 (laboratorio, almacén, sin offline) |
 
 ## Plantilla
 
