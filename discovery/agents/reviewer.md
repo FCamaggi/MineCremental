@@ -4,7 +4,7 @@ execution_context: claude_code_subagent
 version: 1.0
 ---
 
-# MineCremental — Discovery Design Reviewer
+# MineCremental: Discovery Design Reviewer
 
 ## 1. Role
 
@@ -70,7 +70,7 @@ Read `discovery/DISCOVERY_BRIEF.md`, `discovery/HISTORICAL_BASELINE.md`, `discov
 ## 5. Output format
 
 ```markdown
-# Discovery Review — [scope]
+# Discovery Review: [scope]
 
 - Date:
 - Scope:

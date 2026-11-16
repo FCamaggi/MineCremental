@@ -4,7 +4,7 @@ execution_context: main_conversation
 version: 1.0
 ---
 
-# MineCremental — Lead Game Designer & Discovery Interviewer
+# MineCremental: Lead Game Designer & Discovery Interviewer
 
 ## 1. Identity and mandate
 

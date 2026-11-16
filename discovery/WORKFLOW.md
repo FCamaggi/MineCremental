@@ -1,4 +1,4 @@
-# MineCremental — Discovery Workflow
+# MineCremental: Discovery Workflow
 
 ## Canonical references (all versioned in this repository)
 
@@ -12,14 +12,14 @@
 
 These references are committed with the project. The workflow must not depend on files that exist only in a chat or a local temporary download.
 
-## Stage 0 — Initialize
+## Stage 0: Initialize
 
 1. Ensure this workspace and Claude Code files exist.
 2. Read `DISCOVERY_BRIEF.md`, `HISTORICAL_BASELINE.md`, this file and `DISCOVERY_STRATEGY.md`.
 3. Inspect existing interviews, decisions, research, reviews and final artifacts.
 4. Do not rewrite `CLAUDE.md` or historical `docs/`.
 
-## Stage 1 — Concept interview
+## Stage 1: Concept interview
 
 1. Start the main Claude Code session at repository root.
 2. Invoke `/discovery-interview`.
@@ -28,7 +28,7 @@ These references are committed with the project. The workflow must not depend on
 5. Create/update `final/GAME_VISION.md` with `status: DRAFT`.
 6. Save session summary and update decision records.
 
-## Stage 2 — Targeted research
+## Stage 2: Targeted research
 
 1. Derive a focused research brief from a design question or technical uncertainty.
 2. Delegate to `discovery-researcher`.
@@ -36,19 +36,19 @@ These references are committed with the project. The workflow must not depend on
 4. Researcher writes an evidence report under `research/` only.
 5. Main session evaluates findings and their design implications.
 
-## Stage 3 — Design alternatives
+## Stage 3: Design alternatives
 
 The main interviewer/designer uses evidence to present materially different options, gameplay consequences, trade-offs and uncertainties. Research recommendations are not decisions.
 
-## Stage 4 — Contrast interview
+## Stage 4: Contrast interview
 
 Discuss alternatives directly with the author. Record explicit decisions in `decisions/decision-log.md`. Update `GAME_VISION.md` only to reflect what the author approved. Keep `status: DRAFT` until explicit approval.
 
-## Stage 5 — Review
+## Stage 5: Review
 
 Delegate a read-only audit to `discovery-reviewer`. It returns findings to the main session. The main session saves the report under `reviews/` and resolves findings with the author.
 
-## Stage 6 — Consolidation
+## Stage 6: Consolidation
 
 After the author approves the vision and no critical coherence issue remains, consolidate the GDD and supporting documents. Keep unresolved matters visible in `final/OPEN_QUESTIONS.md`.
 

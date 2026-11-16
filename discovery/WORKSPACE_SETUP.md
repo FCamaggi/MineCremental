@@ -1,4 +1,4 @@
-# MineCremental — Workspace Setup
+# MineCremental: Workspace Setup
 
 ## Purpose
 
@@ -19,38 +19,26 @@ MineCremental/
 │   ├── DISCOVERY_STRATEGY.md
 │   ├── WORKFLOW.md
 │   ├── WORKSPACE_SETUP.md
+│   ├── README.md
 │   ├── agents/
 │   │   ├── interviewer.md
 │   │   ├── researcher.md
 │   │   └── reviewer.md
-│   ├── interview/
+│   ├── interview/README.md
 │   ├── decisions/
-│   ├── research/
-│   ├── reviews/
-│   └── final/GAME_VISION.md
+│   │   ├── README.md
+│   │   └── decision-log.md
+│   ├── research/README.md
+│   ├── reviews/README.md
+│   └── final/
+│       ├── README.md
+│       └── GAME_VISION.md
 └── ...
 ```
 
-## Linux installation
+## Installation status
 
-1. Descarga y extrae `MineCremental_Discovery_Kit.zip`.
-2. Copia `.claude/` y `discovery/` en la raíz del clone local de MineCremental.
-3. Si ya existen rutas con esos nombres, inspecciona los conflictos antes de sobrescribir.
-4. Revisa `git status` y los diffs.
-
-Ejemplo, ajusta las rutas a tu equipo:
-
-```bash
-cd /path/to/MineCremental
-unzip /path/to/MineCremental_Discovery_Kit.zip -d /tmp/minecremental-discovery-kit
-find /tmp/minecremental-discovery-kit -maxdepth 5 -type f -print
-cp -a /tmp/minecremental-discovery-kit/MineCremental_Discovery_Kit/.claude .
-cp -a /tmp/minecremental-discovery-kit/MineCremental_Discovery_Kit/discovery .
-git status --short
-git diff --stat
-```
-
-Si el ZIP extrae dentro de una carpeta contenedora, ajusta las rutas de origen de `cp`.
+Instalado en el repositorio el 2026-11-16 (el ZIP original ya no es necesario). Para reinstalar en otro clone, basta con hacer checkout de la rama: `.claude/` y `discovery/` están versionados.
 
 ## Claude Code architecture
 
