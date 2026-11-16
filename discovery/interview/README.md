@@ -6,7 +6,9 @@ No hace falta transcribir la conversación completa si el resumen conserva signi
 
 ## Sesiones
 
-(ninguna aún)
+| Sesión | Fecha | Foco |
+|---|---|---|
+| [001](session-001.md) | 2026-11-16 | Fantasía, progresión por estilos, núcleo de producción y economía |
 
 ## Plantilla
 
