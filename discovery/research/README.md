@@ -16,4 +16,8 @@ Etiquetas de certeza: `VERIFIED`, `SUPPORTED`, `UNCONFIRMED`, `CONFLICTING`, `OU
 
 ## Informes
 
-(ninguno aún; informes externos de Gemini y GPT en curso, ver brief)
+| Informe | Fecha | Tipo | Tema | Estado |
+|---|---|---|---|---|
+| [research-2026-11-16-virtualizacion-gemini](research-2026-11-16-virtualizacion-gemini.md) | 2026-11-16 | Externo (Gemini Deep Research), sin editar | Virtualización por calibración | Evaluado en la síntesis; varias afirmaciones refutadas |
+| [research-2026-11-16-virtualizacion-gpt](research-2026-11-16-virtualizacion-gpt.md) | 2026-11-16 | Externo (GPT Deep Research), sin editar | Virtualización por calibración | Evaluado en la síntesis; sin URLs, datos de versiones antiguas |
+| [research-2026-11-16-virtualizacion-sintesis](research-2026-11-16-virtualizacion-sintesis.md) | 2026-11-16 | Síntesis y verificación (sesión principal) | Virtualización por calibración | Concluyente (SUPPORTED) para factibilidad, mod propio y riesgos |

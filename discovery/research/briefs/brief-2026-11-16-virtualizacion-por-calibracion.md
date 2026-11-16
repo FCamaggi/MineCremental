@@ -3,16 +3,16 @@
 - Fecha: 2026-11-16
 - Origen: interview/session-001.md (próximo foco recomendado)
 - Decisiones relacionadas: DEC-002, DEC-007, DEC-008, DEC-009, DEC-010, DEC-015
-- Estado: informes externos en curso (Gemini Deep Research y GPT Deep Research)
+- Estado: informes externos recibidos y sintetizados; dictamen concluyente (ver síntesis)
 
 ## Informes esperados
 
 | Fuente | Ruta | Estado |
 |---|---|---|
-| Gemini Deep Research | `discovery/research/research-2026-11-16-virtualizacion-gemini.md` | En curso |
-| GPT Deep Research | `discovery/research/research-2026-11-16-virtualizacion-gpt.md` | En curso |
-| discovery-researcher (opcional) | `discovery/research/research-2026-11-16-virtualizacion-por-calibracion.md` | Solo si la síntesis detecta vacíos |
-| Síntesis (sesión principal) | `discovery/research/research-2026-11-16-virtualizacion-sintesis.md` | Pendiente |
+| Gemini Deep Research | `discovery/research/research-2026-11-16-virtualizacion-gemini.md` | Recibido y evaluado |
+| GPT Deep Research | `discovery/research/research-2026-11-16-virtualizacion-gpt.md` | Recibido y evaluado |
+| discovery-researcher (opcional) | `discovery/research/research-2026-11-16-virtualizacion-por-calibracion.md` | No lanzado: la síntesis fue concluyente; vacíos menores listados en la síntesis |
+| Síntesis (sesión principal) | `discovery/research/research-2026-11-16-virtualizacion-sintesis.md` | Completado 2026-11-16 |
 
 Los informes externos se guardan tal como salieron, sin editar.
 
