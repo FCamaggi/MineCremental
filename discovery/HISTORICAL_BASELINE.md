@@ -8,7 +8,7 @@ source_branch: main
 repository: https://github.com/FCamaggi/MineCremental
 ---
 
-# MineCremental — Historical Baseline
+# MineCremental: Historical Baseline
 
 ## 0. Purpose and interpretation
 

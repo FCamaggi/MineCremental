@@ -6,7 +6,7 @@ status: active
 reviewed: 2026-11-16
 ---
 
-# MineCremental — Discovery Brief
+# MineCremental: Discovery Brief
 
 ## Purpose
 

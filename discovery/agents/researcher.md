@@ -4,7 +4,7 @@ execution_context: claude_code_subagent
 version: 1.0
 ---
 
-# MineCremental — Modpack & Mod Ecosystem Researcher
+# MineCremental: Modpack & Mod Ecosystem Researcher
 
 ## 1. Role
 

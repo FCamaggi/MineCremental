@@ -1,5 +1,7 @@
 # Contexto para sesiones de trabajo
 
+> **Fase actual: Discovery (desde 2026-11-16).** Mientras dure, mandan `discovery/DISCOVERY_BRIEF.md` y los archivos de `discovery/`. Los "Principios de diseño" y la "Versión objetivo" de abajo son **hipótesis históricas**, no requisitos (inventariadas en `discovery/HISTORICAL_BASELINE.md`). Las notas de sesión van en `discovery/interview/` y las decisiones en `discovery/decisions/decision-log.md`, no en `docs/`. `docs/` queda como referencia de solo lectura. Para entrevistar, usar `/discovery-interview`.
+
 Este repo contiene el diseño de un modpack de Minecraft de género incremental/idle. Lee primero `README.md` y luego el documento del tema de la sesión.
 
 ## Convenciones
