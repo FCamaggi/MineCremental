@@ -11,7 +11,7 @@
 |---|---|---|
 | Gemini Deep Research | `discovery/research/research-2026-11-16-virtualizacion-gemini.md` | Recibido y evaluado |
 | GPT Deep Research | `discovery/research/research-2026-11-16-virtualizacion-gpt.md` | Recibido y evaluado |
-| discovery-researcher (opcional) | `discovery/research/research-2026-11-16-virtualizacion-por-calibracion.md` | En curso: lanzado 2026-11-16 con el brief reducido (sección C) a pedido del autor |
+| discovery-researcher (opcional) | `discovery/research/research-2026-11-16-virtualizacion-por-calibracion.md` | Completado 2026-11-16 con el brief reducido (sección C): V1, V2, V5 y V6 cerrados; V3 parcial; V4 abierto |
 | Síntesis (sesión principal) | `discovery/research/research-2026-11-16-virtualizacion-sintesis.md` | Completado 2026-11-16 |
 
 Los informes externos se guardan tal como salieron, sin editar.
