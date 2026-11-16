@@ -11,7 +11,7 @@
 |---|---|---|
 | Gemini Deep Research | `discovery/research/research-2026-11-16-virtualizacion-gemini.md` | Recibido y evaluado |
 | GPT Deep Research | `discovery/research/research-2026-11-16-virtualizacion-gpt.md` | Recibido y evaluado |
-| discovery-researcher (opcional) | `discovery/research/research-2026-11-16-virtualizacion-por-calibracion.md` | No lanzado: la síntesis fue concluyente; vacíos menores listados en la síntesis |
+| discovery-researcher (opcional) | `discovery/research/research-2026-11-16-virtualizacion-por-calibracion.md` | En curso: lanzado 2026-11-16 con el brief reducido (sección C) a pedido del autor |
 | Síntesis (sesión principal) | `discovery/research/research-2026-11-16-virtualizacion-sintesis.md` | Completado 2026-11-16 |
 
 Los informes externos se guardan tal como salieron, sin editar.
@@ -165,4 +165,88 @@ Actualizar el índice en discovery/research/README.md.
 ## Alcance
 Investigación enfocada, no un catálogo exhaustivo del ecosistema. Si el alcance
 resulta demasiado amplio, devolver una propuesta de alcance reducido.
+```
+
+---
+
+## C. Brief reducido para `discovery-researcher` (lanzado 2026-11-16)
+
+Derivado de la sección B y limitado a los vacíos V1 a V6 de la [síntesis](../research-2026-11-16-virtualizacion-sintesis.md). Aprobado por el autor antes de lanzarlo.
+
+```markdown
+# Brief reducido: vacíos de la síntesis sobre virtualización por calibración
+
+## Contexto
+Lee primero:
+- discovery/research/research-2026-11-16-virtualizacion-sintesis.md (secciones 6, 7 y 8)
+- discovery/decisions/decision-log.md (DEC-002, DEC-007 a DEC-010, DEC-015)
+
+La síntesis ya dictaminó que la calibración es factible (SUPPORTED). No repitas
+esa investigación ni la de los precedentes ya verificados. Los informes de Gemini
+y GPT son fuentes externas sin verificar: no los cites como evidencia.
+
+## Pregunta
+Cerrar los vacíos de implementación que quedaron abiertos, sin reabrir la
+factibilidad general.
+
+## Hechos a verificar (solo estos)
+
+V2 (prioridad alta). Revisar el código fuente de FPSCompress
+(https://github.com/MukulRamesh/fpscompress) y de CompactMachinesPOR
+(https://github.com/link-fgfgui/CompactMachinesPOR):
+  a. Cómo calculan la tasa: duración de la ventana de medición, promedio,
+     tratamiento de salidas aleatorias.
+  b. Si detectan cambios en la sala tras calibrar, y cómo invalidan la tasa.
+  c. Si cuentan inventarios o buffers internos al medir (riesgo de calibrar en pico).
+  d. Cómo se comportan sin insumos o con la salida bloqueada.
+  e. Si la sala de Compact Machines queda descargada en la fase virtual, y cómo
+     lo logran.
+  Cita archivo y línea o commit cuando sea posible.
+
+V1. ¿Create expone estrés o velocidad de rotación mediante una API pública o una
+capability? Consultar la documentación de API de Create (wiki.createmod.net) o
+su código. Indicar también si depósitos, cintas y cuencos (basins) exponen
+handlers estándar de ítems y fluidos. Distinguir NeoForge de Fabric
+(Fabricators-of-Create).
+
+V5. Comportamiento vigente de los chunks en Compact Machines 7.x (1.21.1) y 8.x:
+¿la sala queda cargada mientras lo esté el bloque exterior? Fuentes: código,
+issues o changelogs del repositorio CompactMods/CompactMachines (incluido el
+PR #580).
+
+V6. ¿Existen precedentes de calibración o producción por tasa en Fabric o en
+Forge 1.20.1? Búsqueda dirigida en Modrinth y CurseForge.
+
+V3 (búsqueda acotada). ¿Algún mod mide la producción de una construcción en el
+mundo abierto, sin recinto ni dimensión aparte (por ejemplo, con un área
+delimitada o un controlador de multibloque)? Si no lo encuentras, dilo y no
+lo infieras.
+
+V4 (búsqueda acotada). ¿Hay mediciones publicadas (perfiles de Spark, benchmarks,
+issues con datos) del costo de mantener chunks cargados con fábricas frente a
+alternativas virtuales? Solo datos medidos, no opiniones.
+
+## Versión y loader
+NO confirmados. No asumas ninguno. Indica la versión y el loader de cada hallazgo.
+
+## Reglas de evidencia
+researcher.md, sección 5: URL y fecha por afirmación; etiquetas VERIFIED,
+SUPPORTED, UNCONFIRMED, CONFLICTING, OUTDATED. Para el código, VERIFIED solo si
+leíste el archivo.
+
+## Informe esperado
+discovery/research/research-2026-11-16-virtualizacion-por-calibracion.md
+Secciones de researcher.md, sección 6, organizadas por vacío (V1 a V6), con una
+tabla final que indique cuáles se cerraron y cuáles siguen abiertos.
+Actualizar el índice en discovery/research/README.md.
+
+## Límites
+- No elegir versión, loader, mods ni stack.
+- No editar decision-log.md, GAME_VISION.md, docs/, CLAUDE.md, README.md ni
+  los informes existentes (incluida la síntesis).
+- Si algo cuestiona DEC-007 a DEC-010, reportarlo como riesgo y como pregunta
+  para el autor.
+- No usar guiones largos (em dash).
+- Si un vacío no se puede cerrar con fuentes web, decirlo y proponer cómo
+  cerrarlo (prototipo o prueba).
 ```
