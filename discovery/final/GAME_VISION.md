@@ -3,7 +3,7 @@ project: MineCremental
 artifact: game-vision
 status: DRAFT
 approved_by_author: false
-last_session: 001 (más evaluación 2026-11-16)
+last_session: 002
 ---
 
 # MineCremental: Game Vision
@@ -31,6 +31,17 @@ Vivir lo que da un incremental, pero dentro de Minecraft y con su esencia. Se em
 
 - Cada jugador avanza principalmente con su estilo, pero hay puntos obligatorios que exigen usar los otros. (DEC-005)
 - Cada punto obligatorio: misiones guiadas y acotadas, luego un desafío por resultado con método libre. Lo aprendido gana por eficiencia y porque sigue siendo útil después. (DEC-006)
+- **Escalera de materiales.** Avanzar de etapa significa sobre todo abrir un material más valioso. (DEC-023)
+- **Cada etapa trae un material y una técnica.** Un material nuevo que se extrae físicamente y una técnica de procesamiento nueva que se aprende con misiones y sirve también para los materiales anteriores. (DEC-025)
+- **Lo viejo no muere.** Las técnicas nuevas revalorizan los materiales anteriores, así que sus zonas y máquinas siguen siendo útiles. (DEC-024)
+- **El juego tiene final:** un último material y una última técnica. (DEC-026)
+
+## Reinicios y prestigio
+
+- **Varios reinicios antes del final.** Cada uno otorga mejoras de prestigio según lo logrado en esa partida. (DEC-027)
+- **Se pierde el acceso, no lo construido.** Al reiniciar se pierden el dinero y las zonas compradas. Lo construido se guarda para volver a colocarlo al recuperar espacio, y los blueprints se conservan: vuelven a rendir a medida que la extracción física vuelve a producir sus insumos. "Me mudo con mis planos y reconstruyo más rápido y más lejos." (DEC-028)
+- **Reinicio mixto.** Los primeros materiales se alcanzan en una partida y el muro de costos sugiere reiniciar; los materiales altos requieren mejoras de prestigio concretas. Cada partida llega más arriba en la escalera. (DEC-029)
+- **Qué compra el prestigio.** Sobre todo atajos de arranque (cada partida empieza en otro punto), luego poder del personaje al picar, llaves de la escalera como hitos y multiplicadores mínimos. Se mide por el valor más alto alcanzado, no por el dinero acumulado. (DEC-030)
 
 ## Núcleo de producción y economía
 
@@ -67,8 +78,9 @@ Vivir lo que da un incremental, pero dentro de Minecraft y con su esencia. Se em
 ## Preguntas abiertas de alto impacto
 
 - Mecanismo contra insumos ocultos en la calibración, duración del test y tratamiento del azar. La factibilidad general está respaldada por investigación (SUPPORTED, ver `research/`).
-- Estructura de etapas y mundo: qué abre cada etapa y cómo se organiza el espacio.
-- Reinicios o prestigio: si existen y qué persiste.
+- Estructura del mundo físico: dónde viven zonas, base y almacén, y cómo se recupera el espacio tras reiniciar.
+- Cantidad de materiales y reinicios; duración del juego.
+- Persistencia fina del reinicio: técnicas aprendidas, slots virtuales, tamaño del laboratorio; cómo se guarda y recoloca lo construido.
 - Costos y etapas de laboratorio, slots y replicación; en qué etapa se desbloquea la virtualización.
 - Una o varias monedas; capacidad del almacén.
 - Modelo social: un jugador, cooperativo o servidor.
