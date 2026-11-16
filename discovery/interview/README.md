@@ -9,6 +9,7 @@ No hace falta transcribir la conversación completa si el resumen conserva signi
 | Sesión | Fecha | Foco |
 |---|---|---|
 | [001](session-001.md) | 2026-11-16 | Fantasía, progresión por estilos, núcleo de producción y economía |
+| [002](session-002.md) | 2026-11-16 | Evaluación de investigación y diseño de la virtualización (laboratorio, almacén, sin offline) |
 
 ## Plantilla
 
