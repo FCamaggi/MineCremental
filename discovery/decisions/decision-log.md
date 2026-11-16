@@ -28,6 +28,14 @@ Registro de decisiones de Discovery. Reglas y plantilla en [README.md](README.md
 | DEC-020 | Almacén central de insumos y productos; venta desde el almacén | DECIDED | G/K | eval. 2026-11-16 |
 | DEC-021 | Sin ganancia offline | DECIDED | B/C | eval. 2026-11-16 |
 | DEC-022 | El crecimiento escala más por valor de materiales que por cantidad | DECIDED | G. Economía | eval. 2026-11-16 |
+| DEC-023 | Etapas como escalera de materiales | DECIDED | E. Progresión | 002 |
+| DEC-024 | Los materiales anteriores se revalorizan, no se abandonan | DECIDED | E/G | 002 |
+| DEC-025 | Cada etapa trae un material nuevo y una técnica de procesamiento nueva | DECIDED | E/C | 002 |
+| DEC-026 | El juego tiene final | DECIDED | E/L | 002 |
+| DEC-027 | Varios reinicios antes del final, con mejoras de prestigio según lo logrado | DECIDED | F. Prestigio | 002 |
+| DEC-028 | Al reiniciar se pierde el acceso, no lo construido; los blueprints persisten | DECIDED | F/H | 002 |
+| DEC-029 | Reinicio mixto: muro de costos al inicio, llaves de prestigio para materiales altos | DECIDED | F/E | 002 |
+| DEC-030 | Mejoras de prestigio: atajos de arranque y poder del personaje; medida por valor alcanzado | DECIDED | F/G | 002 |
 
 ---
 
@@ -511,3 +519,193 @@ Es intencional: los materiales más caros producen más por valor; la cantidad n
 
 ### Consecuencias y dependencias
 El procesamiento virtual es lo que multiplica el valor; la extracción física limita la cantidad. Depende de la estructura de etapas y materiales (pendiente).
+
+---
+
+## DEC-023: Etapas como escalera de materiales
+
+- Estado: DECIDED
+- Dominio: E. Progresión
+- Fecha: 2026-11-16
+- Origen: autor (sobre alternativas del interviewer)
+- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Reemplaza / reemplazada por: modifica HB-03-01 / HB-03-03 (etapas por material, no por dimensión)
+
+### Alternativas consideradas
+1. Escalera de materiales: cada etapa abre un recurso más valioso.
+2. Nuevas disciplinas: cada etapa enseña una forma nueva de jugar.
+3. Nuevos lugares con reglas propias.
+
+### Decisión explícita del autor
+Opción 1. Pasar de etapa significa sobre todo abrir un material más valioso.
+
+### Consecuencias y dependencias
+Desarrolla DEC-022. El riesgo de "lo mismo con otro color" se mitiga con DEC-025. Temas, orden y cantidad de materiales siguen abiertos.
+
+---
+
+## DEC-024: Los materiales anteriores se revalorizan, no se abandonan
+
+- Estado: DECIDED
+- Dominio: E. Progresión / G. Economía
+- Fecha: 2026-11-16
+- Origen: autor (sobre alternativas del interviewer)
+- Sesión: [interview/session-002.md](../interview/session-002.md)
+
+### Alternativas consideradas
+1. Reemplazo: el material viejo queda obsoleto.
+2. Insumo del siguiente: los materiales nuevos requieren los viejos.
+3. Mejora de lo viejo: etapas posteriores revalorizan los anteriores.
+
+### Decisión explícita del autor
+Opción 3. Las zonas y máquinas de materiales anteriores siguen siendo útiles porque las etapas posteriores suben su techo de valor.
+
+### Consecuencias y dependencias
+Coherente con la continuidad de DEC-006. La revalorización viene del procesamiento (DEC-025).
+
+### Riesgos
+Si lo viejo refinado rinde casi como lo nuevo, el material nuevo pierde atractivo. Se resuelve en balance.
+
+---
+
+## DEC-025: Cada etapa trae un material nuevo y una técnica de procesamiento nueva
+
+- Estado: DECIDED
+- Dominio: E. Progresión / C. Incremental
+- Fecha: 2026-11-16
+- Origen: interviewer (formulación), confirmada por el autor
+- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Reemplaza / reemplazada por: reafirma HB-02-06 sin depender de Create
+
+### Decisión explícita del autor
+Cada etapa trae dos cosas: un material nuevo que se extrae físicamente y una técnica de procesamiento nueva (piezas o máquinas que hay que aprender, posiblemente de otro mod) que sirve para el material nuevo y para los anteriores. La revalorización de lo viejo viene sobre todo del procesamiento.
+
+### Consecuencias y dependencias
+- Cada etapa enseña algo (DEC-001, DEC-006), no solo cambia el número.
+- La forma de avanzar se desprende de decisiones previas: la zona nueva se compra (DEC-013), las piezas se aprenden con misiones antes de comprar máquinas (DEC-006, DEC-012) y hay puntos obligatorios de otros estilos (DEC-005).
+- Crea la decisión entre extraer más del material nuevo o refinar mejor lo existente, con espacio y slots limitados (DEC-013, DEC-019).
+
+---
+
+## DEC-026: El juego tiene final
+
+- Estado: DECIDED
+- Dominio: E. Progresión / L. Alcance
+- Fecha: 2026-11-16
+- Origen: autor (sobre alternativas del interviewer)
+- Sesión: [interview/session-002.md](../interview/session-002.md)
+
+### Alternativas consideradas
+1. Juego con final: último material y última técnica.
+2. Escalera infinita.
+3. Final que reinicia en otro nivel.
+
+### Decisión explícita del autor
+Opción 1, combinada con la 3 antes del final (ver DEC-027). Hay un último material y una última técnica.
+
+### Preguntas abiertas
+Cantidad de materiales y duración total del juego. Qué ocurre después de alcanzar el final.
+
+---
+
+## DEC-027: Varios reinicios antes del final, con mejoras de prestigio según lo logrado
+
+- Estado: DECIDED
+- Dominio: F. Prestigio
+- Fecha: 2026-11-16
+- Origen: autor
+- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Reemplaza / reemplazada por: reafirma con cambios HB-04-01
+
+### Decisión explícita del autor
+Textual: "1, pero 3 se produce varias veces antes de, para mejoras de prestigio en base a lo logrado en esa run". Antes del final hay varios reinicios; cada uno otorga mejoras de prestigio según lo logrado en esa partida.
+
+### Consecuencias y dependencias
+Detalle de qué se pierde en DEC-028, qué lo provoca en DEC-029 y qué compra en DEC-030. Una segunda capa de prestigio no se discutió.
+
+### Preguntas abiertas
+Cuántos reinicios tiene un recorrido típico.
+
+---
+
+## DEC-028: Al reiniciar se pierde el acceso, no lo construido; los blueprints persisten
+
+- Estado: DECIDED
+- Dominio: F. Prestigio / H. Mundo
+- Fecha: 2026-11-16
+- Origen: autor (blueprints, idea propia; mundo físico, sobre alternativas del interviewer)
+- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Reemplaza / reemplazada por: resuelve P4 / HB-04-06 con una variante propia; reafirma en espíritu HB-CLAUDE-05
+
+### Alternativas consideradas (mundo físico)
+1. Se reinicia el acceso, no lo construido.
+2. Se mantienen las zonas, se reinician los materiales.
+3. Se mantiene todo lo físico, se reinicia la economía.
+
+### Decisión explícita del autor
+- Los blueprints (virtualizaciones) quedan disponibles tras el reinicio, pero se limitan de forma natural: sin insumos no producen (DEC-017), así que vuelven a rendir a medida que la extracción física vuelve a producir lo necesario.
+- Opción 1: se pierden el dinero y las zonas compradas; lo construido queda guardado para volver a colocarlo cuando se recupera espacio.
+
+### Razonamiento
+El reinicio debe afectar la extracción para que los blueprints no rindan de inmediato. Usa reglas existentes en vez de un candado artificial. La fantasía: "me mudo con mis planos y reconstruyo más rápido y más lejos".
+
+### Riesgos
+Guardar y recolocar construcciones físicas no tiene mecanismo definido (factibilidad sin verificar).
+
+### Preguntas abiertas
+Qué pasa con técnicas aprendidas, slots virtuales y tamaño del laboratorio. Cómo se guarda y recoloca lo construido.
+
+---
+
+## DEC-029: Reinicio mixto: muro de costos al inicio, llaves de prestigio para materiales altos
+
+- Estado: DECIDED
+- Dominio: F. Prestigio / E. Progresión
+- Fecha: 2026-11-16
+- Origen: autor (sobre alternativas del interviewer)
+- Sesión: [interview/session-002.md](../interview/session-002.md)
+
+### Alternativas consideradas
+1. Muro de costos: reiniciar es la forma razonable de seguir.
+2. Contenido que solo se abre con prestigio.
+3. Mixto.
+
+### Decisión explícita del autor
+Opción 3. Los primeros materiales se alcanzan en una partida y el muro de costos sugiere reiniciar. Los materiales más altos requieren mejoras de prestigio concretas. Cada partida llega un poco más arriba en la escalera.
+
+### Riesgos
+Que el momento óptimo para reiniciar no sea claro en la fase de muro de costos.
+
+---
+
+## DEC-030: Mejoras de prestigio: atajos de arranque y poder del personaje; medida por valor alcanzado
+
+- Estado: DECIDED
+- Dominio: F. Prestigio / G. Economía
+- Fecha: 2026-11-16
+- Origen: interviewer (recomendación por delegación del autor), aprobada explícitamente por el autor ("ok")
+- Sesión: [interview/session-002.md](../interview/session-002.md)
+- Reemplaza / reemplazada por: reemplaza en concepto HB-02-09 (Esencia por dinero total)
+
+### Alternativas consideradas
+1. Multiplicadores.
+2. Llaves de la escalera.
+3. Atajos de arranque (transporte automático temprano, slot que no se pierde, laboratorio ampliado, zona inicial más grande).
+4. Poder del personaje (picar a mano).
+
+### Decisión explícita del autor
+El autor delegó ("supongo la que haga mas sentido con todo lo que hemos hablado") y aprobó la recomendación:
+- Atajos de arranque como peso principal.
+- Poder del personaje como segundo eje.
+- Llaves de la escalera como hitos obligatorios (DEC-029).
+- Multiplicadores mínimos y, si existen, ligados a algo visible.
+- Las mejoras se calculan según el valor más alto alcanzado en la partida (qué tan arriba en la escalera y cuánto se refinó), no según el dinero acumulado.
+
+### Razonamiento
+Los atajos deciden qué tan rápido vuelven a rendir los blueprints (DEC-028), así que cada partida empieza distinta. El poder del personaje mantiene el juego activo al inicio de cada partida (DEC-002, DEC-015). Los multiplicadores chocan con que cada mejora se sienta y con DEC-022. Medir valor alcanzado premia avanzar y procesar, no picar piedra por horas.
+
+### Riesgos
+Atajos demasiado fuertes eliminan el arco de cada partida. Medir solo el pico puede incentivar reinicios prematuros.
+
+### Preguntas abiertas
+Fórmula de la medida; catálogo concreto de atajos y mejoras del personaje.

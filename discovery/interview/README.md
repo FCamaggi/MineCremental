@@ -9,6 +9,7 @@ No hace falta transcribir la conversación completa si el resumen conserva signi
 | Sesión | Fecha | Foco |
 |---|---|---|
 | [001](session-001.md) | 2026-11-16 | Fantasía, progresión por estilos, núcleo de producción y economía |
+| [002](session-002.md) | 2026-11-16 | Progresión de largo plazo: escalera de materiales, final y reinicios |
 
 ## Notas fuera de entrevista
 
